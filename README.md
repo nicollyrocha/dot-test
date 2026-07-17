@@ -1,4 +1,4 @@
-# EdTech Frontend Test
+# Dot Frontend Test
 
 Projeto frontend estático desenvolvido com `HTML5`, `CSS` e `JavaScript Vanilla`, sem uso de frameworks.
 
