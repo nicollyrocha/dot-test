@@ -51,7 +51,7 @@ Se estiver usando VS Code:
 ## Estrutura do projeto
 
 ```text
-edtech-test/
+dot-test/
 ├── assets/        # imagens, ícones e áudio
 ├── index.html     # estrutura da página
 ├── style.css      # estilos e responsividade
