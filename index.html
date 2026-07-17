@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EdTech Frontend Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <div class="header-left-title">
+          <div class="header-left-title-line"></div>
+          <div class="header-left-title-text">
+            Lorem ipsum dolor, sit <span style="color: #76b900">amet</span>
+          </div>
+        </div>
+        <p class="header-left-description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+        <button class="header-left-button" type="button">
+          Lorem Ipsum <img src="./assets/Arrow-Right.svg" alt="" />
+        </button>
+      </div>
+      <div class="header-right">
+        <img src="./assets/browser.svg" alt="Browser" />
+      </div>
+    </div>
+    <section class="content">
+      <section class="title-and-description">
+        <div class="title-body">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit
+        </div>
+        <p class="description-body">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
+      </section>
+
+      <section class="video-section">
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube.com/embed/WRlfwBof66s?si=8917KX3d2moclSYq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="media-feature">
+        <img
+          class="media-feature__image"
+          src="./assets/Nature-waves-crashing.png"
+          alt="Nature Waves Crashing"
+        />
+        <p class="nature-description media-feature__body">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+          voluptatum voluptatibus aperiam cum quasi repudiandae nostrum, sed
+          amet quam maiores eum consectetur ipsa dolores quis ducimus, iusto
+          dicta consequuntur facere!
+          <br /><br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+          quia! Cumque ipsum harum fuga perferendis autem incidunt dolorem
+          voluptatum illo, quis explicabo. Possimus repudiandae dolore
+          architecto, hic dolorum ab.
+        </p>
+      </section>
+
+      <section class="carrossel-container">
+        <div class="swiper carrossel-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./assets/d602401d43fb8bb258bc87f2e9368311b33e0360.png"
+                alt="Imagem 1"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/browser.svg" alt="Imagem 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Nature-waves-crashing.png" alt="Imagem 3" />
+            </div>
+          </div>
+
+          <div class="swiper-controls">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-black-bg">
+        <p
+          style="
+            color: #ffffff;
+            font-size: 18px;
+            line-height: 29.25px;
+            font-weight: 500;
+          "
+        >
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore nihil
+          corporis suscipit soluta dolorem id consectetur, tenetur nesciunt
+          ducimus maiores sequi veritatis nostrum, esse eaque delectus ea
+          laboriosam repellendus! Ipsum nobis, mollitia facilis praesentium
+          cupiditate quidem eaque itaque nulla ab obcaecati sapiente sequi
+          porro, totam, non molestias excepturi explicabo adipisci deleniti
+          architecto animi!
+        </p>
+      </section>
+
+      <section class="cards-showcase" aria-label="Cards em destaque">
+        <article class="cards-showcase__card" data-showcase-card>
+          <div class="cards-showcase__front">
+            <div class="cards-showcase__icon">?</div>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              Abrir
+            </button>
+          </div>
+          <div class="cards-showcase__back">
+            <p class="cards-showcase__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore
+              similique at quas.
+            </p>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              Fechar
+            </button>
+          </div>
+        </article>
+
+        <article
+          class="cards-showcase__card cards-showcase__card--active"
+          data-showcase-card
+        >
+          <div class="cards-showcase__front">
+            <div class="cards-showcase__icon">?</div>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="true"
+            >
+              Abrir
+            </button>
+          </div>
+          <div class="cards-showcase__back">
+            <p class="cards-showcase__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore
+              similique at quas.
+            </p>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="true"
+            >
+              Fechar
+            </button>
+          </div>
+        </article>
+
+        <article class="cards-showcase__card" data-showcase-card>
+          <div class="cards-showcase__front">
+            <div class="cards-showcase__icon">?</div>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              Abrir
+            </button>
+          </div>
+          <div class="cards-showcase__back">
+            <p class="cards-showcase__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              excepturi, dolores perspiciatis commodi eum dolore nesciunt tempore
+              similique at quas.
+            </p>
+            <button
+              class="cards-showcase__button cards-showcase__toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              Fechar
+            </button>
+          </div>
+        </article>
+      </section>
+
+      
+
+      <section class="content">
+        <div class="title-and-description">
+          <div class="title-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit
+          </div>
+          <p class="description-body">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          </p>
+        </div>
+
+        <section class="audio-container">
+          <div class="audio-player" data-audio-player>
+            <audio
+              class="audio-player__media"
+              preload="metadata"
+              aria-label="Reprodutor de áudio"
+            >
+              <source
+                src="/assets/typing-sound.mp3"
+                type="audio/mpeg"
+              />
+              Seu navegador não suporta o elemento de áudio.
+            </audio>
+
+            <button
+              class="audio-player__toggle"
+              type="button"
+              aria-label="Reproduzir áudio"
+              aria-pressed="false"
+            >
+              <span class="audio-player__icon" aria-hidden="true">
+                <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0 17.5V0L13.75 8.75L0 17.5ZM2.5 12.9375L9.0625 8.75L2.5 4.5625V12.9375Z" fill="#475569"/>
+                </svg>
+              </span>
+            </button>
+
+            <input
+              class="audio-player__seek"
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              step="0.1"
+              aria-label="Progresso do áudio"
+            />
+
+            <span class="audio-player__time" aria-live="polite">00:00</span>
+
+            <div class="audio-player__volume-container">
+              <img src="./assets/audio.svg" alt="Ícone de áudio" />
+              <input
+                class="audio-player__volume"
+                type="range"
+                min="0"
+                max="100"
+                value="100"
+                step="1"
+                aria-label="Controle de volume"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="content-white-bg">
+          <div class="atividade">
+            <img src="/assets/icon-discursiva.svg" alt="" />
+            <div class="atividade-text">
+              <div class="atividade-text_title">Atividade discursiva</div>
+              <p class="atividade-text_description">
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+          <textarea
+            id="atividade-textarea"
+            placeholder="Digite sua resposta aqui..."
+            aria-label="Digite sua resposta"
+          ></textarea>
+          <div
+            id="atividade-feedback"
+            class="atividade-feedback"
+            aria-live="polite"
+            hidden
+          >
+            <strong class="atividade-feedback__title"></strong>
+            <p class="atividade-feedback__description"></p>
+          </div>
+          <div style="display: flex; gap: 16px;">
+            <button
+              id="atividade-responder"
+              class="btn btn-primary"
+              type="button"
+            >
+              Responder
+            </button>
+            <button
+              id="atividade-alterar"
+              class="btn btn-secondary"
+              type="button"
+              disabled
+            >
+              Alterar
+            </button>
+          </div>
+        </section>
+
+        <section class="content-white-bg">
+          <div class="atividade">
+            <img src="/assets/icon-discursiva.svg" alt="" />
+            <div class="atividade-text">
+              <div class="atividade-text_title">Atividade objetiva</div>
+              <p class="atividade-text_description">
+                It is a long established fact that a reader will be distracted by the readable content of a page.
+              </p>
+            </div>
+          </div>
+          <div
+            id="atividade-objetiva-opcoes"
+            class="atividade-objetiva"
+            role="group"
+            aria-label="Opções da atividade objetiva"
+          >
+            <label class="atividade-objetiva__option">
+              <input type="checkbox" name="atividade-objetiva" value="opcao-1" />
+              <span>A) Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            </label>
+            <label class="atividade-objetiva__option">
+              <input type="checkbox" name="atividade-objetiva" value="opcao-2" />
+              <span>B) Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            </label>
+            <label class="atividade-objetiva__option">
+              <input type="checkbox" name="atividade-objetiva" value="opcao-3" />
+              <span>C) Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            </label>
+            <label class="atividade-objetiva__option">
+              <input type="checkbox" name="atividade-objetiva" value="opcao-4" />
+              <span>D) Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            </label>
+          </div>
+          <div
+            id="atividade-objetiva-feedback"
+            class="atividade-feedback"
+            aria-live="polite"
+            hidden
+          >
+            <strong class="atividade-feedback__title"></strong>
+            <p class="atividade-feedback__description"></p>
+          </div>
+          <div style="display: flex; gap: 16px;">
+            <button
+              id="atividade-objetiva-responder"
+              class="btn btn-primary"
+              type="button"
+              disabled
+            >
+              Responder
+            </button>
+            <button
+              id="atividade-objetiva-alterar"
+              class="btn btn-secondary"
+              type="button"
+              disabled
+            >
+              Alterar
+            </button>
+          </div>
+        </section>
+
+        <section class="faq">
+          <div class="faq-title">Perguntas frequentes</div>
+          <div class="faq-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+          <section class="accordion-list" aria-label="Accordion de conteúdo">
+            <article class="accordion-item is-open">
+              <button
+                class="accordion-item__trigger"
+                type="button"
+                aria-expanded="true"
+              >
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.
+                </span>
+                <span class="accordion-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-item__content">
+                <div class="accordion-item__body">
+                  <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using "Content here,
+                    content here", making it look like readable English.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="accordion-item">
+              <button
+                class="accordion-item__trigger"
+                type="button"
+                aria-expanded="false"
+              >
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.
+                </span>
+                <span class="accordion-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-item__content">
+                <div class="accordion-item__body">
+                  <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using "Content here,
+                    content here", making it look like readable English.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="accordion-item">
+              <button
+                class="accordion-item__trigger"
+                type="button"
+                aria-expanded="false"
+              >
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.
+                </span>
+                <span class="accordion-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-item__content">
+                <div class="accordion-item__body">
+                  <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using "Content here,
+                    content here", making it look like readable English.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="accordion-item">
+              <button
+                class="accordion-item__trigger"
+                type="button"
+                aria-expanded="false"
+              >
+                <span>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.
+                </span>
+                <span class="accordion-item__icon" aria-hidden="true"></span>
+              </button>
+              <div class="accordion-item__content">
+                <div class="accordion-item__body">
+                  <p>
+                    It is a long established fact that a reader will be distracted by
+                    the readable content of a page when looking at its layout. The
+                    point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using "Content here,
+                    content here", making it look like readable English.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </section>
+        </section>
+
+      </section>
+
+      <footer>
+        <img src="/assets/icon-dot.svg" alt="" />
+        <p>© 2026 DOT Digital Group. Todos os direitos reservados.</p>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
